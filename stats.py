@@ -19,9 +19,9 @@ def get_num_chars(text):
 dict_list = []
 def sorted_list_dict(char_dict): 
     for char, count in char_dict.items():
-        small_dict = {"char": char, "count": count}
+        small_dict = {"char": char, "num": count}
         dict_list.append(small_dict)
-        return dict_list
+    return dict_list
                  
 
 
