@@ -14,8 +14,8 @@ def main():
     words = get_num_words(get_book_text())
     print(f'Found {words} total words.')
     print("--------- Character Count -------")
-    char_count = sorted_list_dict(get_num_chars)
-    print(f'Found {dict_list} total characters.')
+    char_count = sorted_list_dict(shar_dict) )
+    print(f'Found {char_count} total characters.')
 
          
 

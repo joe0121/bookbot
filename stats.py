@@ -17,6 +17,7 @@ def get_num_chars(text):
     return char_dict
 
 dict_list = []
+
 def sorted_list_dict(char_dict): 
     for char, count in char_dict.items():
         small_dict = {"char": char, "num": count}
