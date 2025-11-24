@@ -19,7 +19,7 @@ def sort_on(item):
     return item['num']
 
 def chars_dict_to_sorted_list(char_dict): 
-    
+
     dict_list = []
     
     for char, count in char_dict.items():
